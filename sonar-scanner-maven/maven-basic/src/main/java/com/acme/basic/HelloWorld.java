@@ -10,4 +10,10 @@ public class HelloWorld {
     System.out.println("This method is not covered by unit tests");
   }
 
+  void test(Object obj) {
+    if (obj != null && obj instanceof String) {
+      System.out.println("string");
+    }
+  }
+
 }
