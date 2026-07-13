@@ -1,6 +1,6 @@
 plugins {
     id "java-library"
-    id "org.sonarqube" version "latest.release"
+    id "org.sonarqube" version "7.3.0.8198"
 }
 
 allprojects {
